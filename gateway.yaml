@@ -10,3 +10,7 @@ spring:
           uri: http://localhost:8082
           predicates:
             - Path=/front/**
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
