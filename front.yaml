@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          database:
+            url: http://localhost:8765/data/
+
+api:
+  basic-uri:
+    database: http://localhost:8765/data/
+
