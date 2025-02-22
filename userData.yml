@@ -3,9 +3,10 @@ spring:
     url: jdbc:mysql://localhost:3306/usersDB
     username: root
     password: password
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: disable
     show-sql: true
 
 
