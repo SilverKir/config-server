@@ -20,16 +20,18 @@ management:
   endpoint:
     health:
       show-details: always
+    info:
+      env:
+        enabled: true
+      application:
+        name: "UserData microservice"
+        version: "1.0.0"
+        description: "User Register"
   metrics:
     export:
       prometheus:
         enabled: true
 
-info:
-  application:
-    name: "UserData microservice"
-    version: "1.0.0"
-    description: "User Register"
 
 
 
