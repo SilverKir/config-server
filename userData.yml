@@ -11,6 +11,11 @@ spring:
   sql:
     init:
       mode: always
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888
+
 
 management:
   endpoints:
