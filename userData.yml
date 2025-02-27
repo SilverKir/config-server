@@ -24,12 +24,11 @@ management:
     export:
       prometheus:
         enabled: true
-
-info:
-  app:
-    name: "UserData microservice"
-    version: "1.0.0"
-    description: "User Register"
+  info:
+    app:
+      name: "UserData microservice"
+      version: "1.0.0"
+      description: "User Register"
 
 
 
