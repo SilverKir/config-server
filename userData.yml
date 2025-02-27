@@ -27,10 +27,11 @@ management:
   info:
     env:
       enabled: true
-    application:
-      name: "UserData microservice"
-      version: "1.0.0"
-      description: "User Register"
+info:
+  application:
+    name: "UserData microservice"
+    version: "1.0.0"
+    description: "User Register"
 
 
 
