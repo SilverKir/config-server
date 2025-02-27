@@ -24,6 +24,8 @@ management:
     export:
       prometheus:
         enabled: true
+  env:
+    enabled: true
   info:
     enabled: true
     env:
